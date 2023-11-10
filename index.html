@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christmas Decorations</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+
+
+<header class="header">
+
+    <a href="#" class="logo"> <i class="fas fa-shopping-basket"></i> Christmas Decorations </a>
+
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#features">Features</a>
+        <a href="#products">Products</a>
+        <a href="#categories">Categories</a>
+        <a href="#review">Review</a>
+        <a href="#blogs">blogs</a>
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-user" id="login-btn"></div>
+    </div>
+
+    <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+    <div class="shopping-cart">
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="123.jpg" alt="">
+            <div class="content">
+                <h3>Christmas Tree</h3>
+                <span class="price">P 1000 /-</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="321.jpg" alt="">
+            <div class="content">
+                <h3>Christmas Light</h3>
+                <span class="price">P 100 /-</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="3122.jpg" alt="">
+            <div class="content">
+                <h3>Christmas Balls</h3>
+                <span class="price">P 50/-</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+        <div class="total"> Total : P 1,150 </div>
+        <a href="#" class="btn">Checkout</a>
+    </div>
+
+    <form action="" class="login-form">
+        <h3>Login Now</h3>
+        <input type="email" placeholder="Your Email" class="box">
+        <input type="password" placeholder="Your Password" class="box">
+        <p>Forget your Password <a href="#">Click Here</a></p>
+        <p>Don't have an Account <a href="#">Create Now</a></p>
+        <input type="submit" value="login now" class="btn">
+    </form>
+
+</header>
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>Find the perfect <span>Decorations</span> to make your holiday season magical.</h3>
+        <p>The holiday season is a time of warmth, joy, and enchantment, where homes are transformed into sanctuaries of celebration and togetherness. The key to capturing the essence of this magical time lies in the art of perfect decorations. Through thoughtful curation and creative expression, one can elevate the holiday spirit to new heights, infusing every nook and cranny with the sparkle of festive charm.</p>
+        <a href="#products" class="btn">Shop Now</a>
+    </div>
+
+</section>
+
+<section class="features" id="features">
+
+    <h1 class="heading"> Our <span>features</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="perfect.jpg" alt="">
+            <h3>Perfect Decorations</h3>
+            <p>The quest for perfect holiday decorations transcends the mere act of adorning the home; 
+                it embodies the spirit of the season itself. Through the thoughtful curation of traditional elements, 
+                creative accents, and luminous displays, one can create an immersive experience that celebrates the magic of the holidays, 
+                fostering a sense of unity, joy, and wonder that lingers long after the season has passed!</p>
+        </div>
+
+        <div class="box">
+            <img src="free.jpg" alt="">
+            <h3>Free Delivery</h3>
+            <p>In the realm of business, delivery plays a vital role in customer satisfaction and overall success. 
+                Timely and reliable delivery of products or services is a fundamental aspect of customer experience!</p>
+        </div>
+
+        <div class="box">
+            <img src="pay.jpg" alt="">
+            <h3>Payments</h3>
+            <p>We encrypt and store all private information, including bank account and credit card information!</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="products" id="products">
+
+    <h1 class="heading"> our <span>products</span> </h1>
+
+    <div class="swiper product-slider" flex-direction="row">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="123.jpg" alt="">
+                <h3>Christmas Tree</h3>
+                <div class="price">P 1000</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="321.jpg" alt="">
+                <h3>Christmas Lights</h3>
+                <div class="price">P 100</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="3122.jpg" alt="">
+                <h3>Christmas Balls</h3>
+                <div class="price">P 50</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="garlandd.jpg" alt="">
+                <h3>Christmas Garland</h3>
+                <div class="price">P 30</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="swiper product-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="santa.JPG" alt="">
+                <h3>Santa Claus</h3>
+                <div class="price">P 2000</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="parol.jpg" alt="">
+                <h3>Christmas Lantern</h3>
+                <div class="price">P 500</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="flower.jpg" alt="">
+                <h3>Christmas Flowers</h3>
+                <div class="price">P 10</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">add to cart</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="bell.jpg" alt="">
+                <h3>Christmas Bells</h3>
+                <div class="price">P 10</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+
+        </div>
+
+    </div>
+
+
+</section>
+
+<section class="categories" id="categories">
+
+    <h1 class="heading"> product <span>categories</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="santa.JPG" alt="">
+            <h3>Santa Claus</h3>
+            <p>upto 30% off</p>
+            <a href="#" class="btn">Shop Now</a>
+        </div>
+
+        <div class="box">
+            <img src="123.jpg" alt="">
+            <h3>Christmas Tree</h3>
+            <p>upto 45% off</p>
+            <a href="#" class="btn">Shop Now</a>
+        </div>
+
+        <div class="box">
+            <img src="parol.jpg" alt="">
+            <h3>Christmas Lantern</h3>
+            <p>upto 55% off</p>
+            <a href="#" class="btn">Shop Now</a>
+        </div>
+
+        <div class="box">
+            <img src="321.jpg" alt="">
+            <h3>Christmas Lights</h3>
+            <p>upto 75% off</p>
+            <a href="#" class="btn">Shop Now</a>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="review" id="review">
+
+    <h1 class="heading"> customer's <span>review</span> </h1>
+
+    <div class="swiper review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="marl.jpg" alt="">
+                <p>The focal point of many homes during the holiday season, the Christmas tree serves as a canvas for cherished.</p>
+                <h3>John Christian</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="medy.jpg" alt="">
+                <p>It makes christmas extra special. Looking at the perfect decorations for christmas gaves me chills and happiness.</p>
+                <h3>Melody Amor</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="lalo.jpg" alt="">
+                <p>They serve as a reflection of the holiday spirit and the joy of sharing this special time with loved ones.</p>
+                <h3>Jan Carlo</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="viel.JPG" alt="">
+                <p>Perfect Decorations makes christmas extra special. It gives positiveness, joy and happiness that heals our inner self.</p>
+                <h3>Averiele</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="blogs" id="blogs">
+
+    <h1 class="heading"> our <span>blogs</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="bl.jpg" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-user"></i>John Kirby</a>
+                    <a href="#"> <i class="fas fa-calendar"></i>November 8, 2023</a>
+                </div>
+                <h3>Perfect Christmas Decorations</h3>
+                <p>How to create a Perfect Decorations?</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="aa.JPG" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-user"></i>John Kirby</a>
+                    <a href="#"> <i class="fas fa-calendar"></i>November 9, 2023</a>
+                </div>
+                <h3>Perfect Christmas Decorations</h3>
+                <p>How to Make Christmas Tree Decorations?</p>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="tip.jpg" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-user"></i>John Kirby</a>
+                    <a href="#"> <i class="fas fa-calendar"></i>November 10, 2023</a>
+                </div>
+                <h3>Perfect Christmas Decorations</h3>
+                <p>How I Make a Plan for my Christmas Decorations?</p>
+            </div>
+        </div>
+
+    </div>
+
+</section> 
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>Christmas Decorations<i class="fas fa-shopping-basket"></i> </h3>
+            <p>Beyond the tree, wreaths and garlands play a vital role in bringing the holiday spirit to life. 
+                With their lush greenery and accents of berries and pinecones, these natural adornments evoke a sense of tradition 
+                and timelessness, welcoming guests into a space that exudes warmth and hospitality. Their presence serves as a gentle 
+                reminder of the evergreen spirit that transcends the passing of seasons and connects us to the enduring magic of nature!.</p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3>Contact Info</h3>
+            <a href="#" class="links"> <i class="fas fa-phone"></i>0930 697 4738</a>
+            <a href="#" class="links"> <i class="fas fa-envelope"></i>haojohnkirby@gmail.com</a>
+            <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i>39 M.L. Tagarao Street Barangay 3, Lucena City</a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#home" class="links"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="#features" class="links"> <i class="fas fa-arrow-right"></i> features </a>
+            <a href="#products" class="links"> <i class="fas fa-arrow-right"></i> products </a>
+            <a href="#categories" class="links"> <i class="fas fa-arrow-right"></i> categories </a>
+            <a href="#review" class="links"> <i class="fas fa-arrow-right"></i> review </a>
+            <a href="#blogs" class="links"> <i class="fas fa-arrow-right"></i> blogs </a>
+        </div>
+
+        <div class="box">
+            <h3>Updates</h3>
+            <p>Subcribe to my Blogs</p>
+            <input type="Name" placeholder="Username" class="username">
+            <input type="submit" value="subscribe" class="btn">
+            <img src="check.JPG" class="payment-img" alt="">
+        </div>
+
+</section>
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<script src="script.js"></script>
+
+</body>
+</html>
